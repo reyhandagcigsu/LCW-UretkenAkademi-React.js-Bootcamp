@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> Üretken AKADEMİ</title>
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .backgroundDiv {
+    background-image: url("data:image/png;base64,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");
+    background-color: white;
+    background-repeat: no-repeat;
+
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center backgroundDiv"  style="margin-bottom:0">
+  <h1>ÜRETKEN AKADEMİ</h1>
+  <p>LCW Bootcamp</p> 
+</div>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="https://uretkenakademi.com/" target="_blank">Anasayfa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://uretkenakademi.com/programlar/lc-waikiki-react-js-yazilimci-yetistirme-programi-grubu/members/all-members/" target="_blank">Program Sayfası</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+
+      <h5>LCW:</h5>
+      <div><img src="https://uretkenakademi.com/wp-content/uploads/group-avatars/22/6277dc396c679-bpfull.png"></div>
+      
+      <h3>LCW Links</h3>
+    
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.lcwaikiki.com/tr-TR/TR/lp/2021-home-koleksiyonu" target="_blank">Homepage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://corporate.lcwaikiki.com/hakkimizda" target="_blank">Hakkında</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://corporate.lcwaikiki.com/magazalar" target="_blank">Mağazalar</a>
+        </li>
+        <li class="nav-item">
+         <!-- <a class="nav-link disabled" href="#">Disabled</a>  -->
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Hakkında</h2>
+      <br>
+      <p>1988 yılında Fransız asıllı üç ortak tarafından kurulan LC Waikiki, toptan satış amaçlı bir marka olarak ticari hayatına başlamıştır. Paris’te kurulup tescil edilen LC Waikiki, ilk etapta t-shirt ve sweatshirt tasarımları ile dikkat çekmiştir. Zaman içerisinde markanın kurucu iki ortağının ayrılmasıyla birlikte LC Waikiki, tek hissedar olarak George Amouyal’a geçmiştir. LC Waikiki’nin üreticisi ve aynı zamanda Türkiye lisansörü olan Taha grubuna bağlı Tema Tekstil ise 1997 yılında LC Waikiki markasının tüm dünyadaki haklarını satın almıştır.</p>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <a href="https://www.linkedin.com/company/lc-waikiki/">
+        <img alt="Qries" src="data:image/jpeg;base64,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"
+        width="40" height="40">
+     </a>
+</div>
+
+</body>
+</html>
