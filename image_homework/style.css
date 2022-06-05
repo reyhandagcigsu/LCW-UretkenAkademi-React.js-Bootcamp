@@ -1,0 +1,22 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.title{
+    text-align: center;
+    color: black;
+    font-size: 40px ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container img{
+  height: 400px;
+  width: 400px;
+
+}
