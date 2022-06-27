@@ -1,8 +1,9 @@
-import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
 import Card from "../UI/Card";
 import ExpensesFilter from "./ExpensesFilter";
 import { useState } from "react";
+import ExpensesList from "./ExpensesList";
+import ExpensesChart from "./ExpensesChart";
 
 function Expenses(props) {
   const [filteredYear, setFilteredYear] = useState("2020");
@@ -22,20 +23,8 @@ function Expenses(props) {
           selected={filteredYear}
           onChangeFilter={filterChangeHandler}
         />
-        
-         
-        {filteredExpenses.length === 0 ? (
-          <p> No Expenses Found.</p>
-        ) : (
-          filteredExpenses.map((expense) => (
-            <ExpenseItem // app.jsdeki expense item olan objeyi maple arraye çevirip tek adımda ExpenseItem componentinde
-              key={expense.id}
-              title={expense.title} // renderlıyor. harika olay.
-              amount={expense.amount}
-              date={expense.date}
-            />
-          ))
-        )}
+        <ExpensesChart expenses= { filteredExpenses} /> 
+        <ExpensesList items={filteredExpenses} />
       </Card>
     </div>
   );
