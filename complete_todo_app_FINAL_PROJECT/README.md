@@ -1,6 +1,8 @@
 # React Todo App
 
-A minimalistic, customisable todo app.  For Project videos: 
+A minimalistic Todo App.  
+
+For Project videos: 
 PART 1 : [Project Video Link part 1 ](https://www.youtube.com/watch?v=SsQOdqC8OZg&list=PLnljDOquJIhHlnT11XXLtwwH8HehCpeJ5)
 
 PART 2 : [[Project Video Link part 2](https://www.youtube.com/watch?v=usjh4ZtM1IY&t=1135s)
@@ -13,14 +15,14 @@ PART 2 : [[Project Video Link part 2](https://www.youtube.com/watch?v=usjh4ZtM1I
 - firebase Authentication || sign in and sign up 
 - Backend with REST API 
 - Tasks saved in a database
-- Importants page the starred tasks
+- Importants page for the starred tasks
 - Tablet & mobile friendly
 
 ## Built with
 
 - React Js, Css, Node.js , Express, Mysql 
 - React Hooks : useState, useEffect, useRef, useContext
-- react-beautiful-dnd, react-icons, uuidv4...
+- react-icons, uuidv4...
 
 
 ## Author
