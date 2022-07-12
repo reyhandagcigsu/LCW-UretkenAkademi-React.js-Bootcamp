@@ -1,8 +1,9 @@
 # React Todo App
 
 A minimalistic, customisable todo app.  For Project videos: 
-PART 1 : [Project Video Link Here ](https://www.youtube.com/watch?v=SsQOdqC8OZg&list=PLnljDOquJIhHlnT11XXLtwwH8HehCpeJ5)
-PART 2 : [youtube](https://www.youtube.com/watch?v=usjh4ZtM1IY&t=1135s)
+PART 1 : [Project Video Link part 1 ](https://www.youtube.com/watch?v=SsQOdqC8OZg&list=PLnljDOquJIhHlnT11XXLtwwH8HehCpeJ5)
+
+PART 2 : [[Project Video Link part 2](https://www.youtube.com/watch?v=usjh4ZtM1IY&t=1135s)
 
  
 
