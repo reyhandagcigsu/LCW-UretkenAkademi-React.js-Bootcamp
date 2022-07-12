@@ -1,6 +1,9 @@
 # React Todo App
 
-A minimalistic, customisable todo app.
+A minimalistic, customisable todo app.  For Project videos: 
+PART 1 : [Project Video Link Here ](https://www.youtube.com/watch?v=SsQOdqC8OZg&list=PLnljDOquJIhHlnT11XXLtwwH8HehCpeJ5)
+PART 2 : [youtube](https://www.youtube.com/watch?v=usjh4ZtM1IY&t=1135s)
+
  
 
 ## Features
@@ -9,7 +12,7 @@ A minimalistic, customisable todo app.
 - firebase Authentication || sign in and sign up 
 - Backend with REST API 
 - Tasks saved in a database
-- Importants Box fro the starred tasks
+- Importants page the starred tasks
 - Tablet & mobile friendly
 
 ## Built with
